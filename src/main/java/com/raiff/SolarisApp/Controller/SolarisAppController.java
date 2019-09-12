@@ -9,4 +9,11 @@ public class SolarisAppController {
     public String hello() {
         return "Hello";
     }
+
+    @RequestMapping("/bye")
+    public String bye() {
+        return "bye";
+    }
 }
+
+
